@@ -17,7 +17,7 @@ const projects = [
     title: "Portfolio Website",
     text: "A modern portfolio website with smooth animations.",
     img: "/images/portfolio.png",
-    href: "#",
+    href: "https://myportfoliotwo-sable-94.vercel.app/",
   },
 ];
 

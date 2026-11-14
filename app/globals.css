@@ -18,7 +18,7 @@ img { max-width: 100%; display: block; }
 .nav {
   position: fixed; inset: 0 0 auto 0; z-index: 50; height: 64px;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 0 48px; background: rgba(7, 7, 15, 0.7); backdrop-filter: blur(12px);
+  padding: auto 48px; background: rgba(7, 7, 15, 0.7); backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 .logo { display: flex; align-items: center; gap: 12px; font-size: 22px; font-weight: 700; }
