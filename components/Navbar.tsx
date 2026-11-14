@@ -17,7 +17,7 @@ export default function Navbar() {
         ))}
       </nav>
       <Link href="/cv.pdf" download className="btn btn-outline btn-sm">
-        Download CV <FiDownload />
+      <span className="cv-text">Download CV</span>   <FiDownload />
       </Link>
     </header>
   );
