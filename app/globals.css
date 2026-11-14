@@ -154,9 +154,9 @@ img { max-width: 100%; display: block; }
   .logo{font-size: 15px;}
 }
 
-@media(max-width:359px){
+@media(max-width:361px){
   .cv-text{display:flex;}
-  .logo{font-size: 13px;}
+  .logo{font-size: 14px;}
 }
 
 
