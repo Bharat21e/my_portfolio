@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "lenis/dist/lenis.css";
+// @ts-expect-error Next.js resolves global CSS imports at build time.
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 
