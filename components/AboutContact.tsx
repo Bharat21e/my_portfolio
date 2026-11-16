@@ -13,7 +13,7 @@ import Link from "next/link";
 const socials = [
   {
     Icon: FiGithub,
-    href: `https://github.com/${process.env.Github_id}`,
+    href: `https://github.com/${process.env.github_id}`,
     label: "GitHub"
   },
   {
