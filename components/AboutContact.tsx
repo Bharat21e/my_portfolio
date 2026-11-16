@@ -44,7 +44,7 @@ export default function AboutContact() {
 
           <p>
             I&apos;m Bharat Mahajan, a B.Tech Graduate from Raipur Institute of
-            Technology (2025). I&apos;m from Raver, Jalgaon and currently based in Vadodara.
+            Technology (2025). I&apos;m from Raver, Jalgaon.
           </p>
 
           <p>
