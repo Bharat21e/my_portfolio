@@ -9,8 +9,13 @@ import {
 } from "react-icons/fi";
 
 import Link from "next/link";
-
-const socials = [
+import { IconType } from "react-icons";
+interface urlTyes{
+   Icon:IconType,
+   href:string,
+   label:string
+}
+const socials:urlTyes[] = [
   {
     Icon: FiGithub,
     href: `https://github.com/${process.env.github_id}`,
@@ -34,7 +39,7 @@ const socials = [
 ];
 
 export default function AboutContact() {
-  const email = `${process.env.Email_name}@gmail.com`;
+  const email:string = `${process.env.Email_name}@gmail.com`;
 
   return (
     <section className="split" data-reveal>

@@ -1,6 +1,6 @@
 import { FiDownload } from "react-icons/fi";
 import Link from "next/link";
-const links = ["Home", "About", "Skills", "Projects", "Contact"];
+const links:string[] = ["Home", "About", "Skills", "Projects", "Contact"];
 
 export default function Navbar() {
   return (
