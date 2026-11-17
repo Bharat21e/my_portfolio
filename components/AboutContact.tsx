@@ -13,26 +13,31 @@ import { IconType } from "react-icons";
 interface urlTyes{
    Icon:IconType,
    href:string,
-   label:string
+   label:string,
+   color:string,
 }
 const socials:urlTyes[] = [
   {
     Icon: FiGithub,
+    color:"#444",
     href: `https://github.com/${process.env.github_id}`,
     label: "GitHub"
   },
   {
     Icon: FiLinkedin,
+    color: "blue",
     href: `https://linkedin.com/in/${process.env.Linkdin_id}`,
     label: "LinkedIn"
   },
   {
     Icon: FiYoutube,
+    color:"red",
     href: `https://youtube.com/@${process.env.Youtube_id}`,
     label: "YouTube"
   },
   {
     Icon: FiMail,
+    color:"white",
     href: `mailto:${process.env.Email_name}@gmail.com`,
     label: "Email"
   }
@@ -73,7 +78,7 @@ export default function AboutContact() {
         </p>
 
         <div className="socials">
-          {socials.map(({ Icon, href, label }) => (
+          {socials.map(({ Icon, href, label ,color}) => (
             <Link
               key={label}
               href={href}
@@ -82,7 +87,7 @@ export default function AboutContact() {
               target={label === "Email" ? undefined : "_blank"}
               rel={label === "Email" ? undefined : "noopener noreferrer"}
             >
-              <Icon size={22} />
+              <Icon size={22} style={{color:`${color}`}} />
             </Link>
           ))}
         </div>
@@ -92,5 +97,6 @@ export default function AboutContact() {
         </Link>
       </div>
     </section>
+
   );
 }

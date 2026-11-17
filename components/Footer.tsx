@@ -4,6 +4,7 @@ export default function Footer() {
       <span>© 2025 Bharat Mahajan. All rights reserved.</span>
       <span className="tags">Code <i /> Create <i /> Innovate</span>
       <span>Built with ❤️ using React &amp; Next.js</span>
+      
     </footer>
   );
 }
