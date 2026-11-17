@@ -1,7 +1,12 @@
 import { FiArrowRight } from "react-icons/fi";
 import Link from "next/link";
-
-const projects : {title:string , text:string,img:string,href:string  }[] = [
+interface project{
+ title:string,
+ text:string,
+ img:string,
+ href:string
+}
+const projects : project[] = [
   {
     title: "Crop Disease Detection",
     text: "Detect crop diseases using AI with React, Node.js and Python.",

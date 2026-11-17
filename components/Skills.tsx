@@ -3,8 +3,12 @@ import {
   SiReact, SiNextdotjs, SiJavascript, SiTypescript, SiNodedotjs,
   SiExpress, SiMysql, SiMongodb, SiGit, SiGithub,
 } from "react-icons/si";
-
-const skills: { name: string; Icon: IconType; color: string }[] = [
+interface skill{
+  name:string ,
+  Icon:IconType,
+  color:string
+}
+const skills: skill[] = [
   { name: "React", Icon: SiReact, color: "#61dafb" },
   { name: "Next.js", Icon: SiNextdotjs, color: "#ffffff" },
   { name: "JavaScript", Icon: SiJavascript, color: "#f7df1e" },
