@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="ring" />
         {/* Put your photo at /public/images/hero.png (transparent PNG works best) */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/hero.png" alt="Bharat Mahajan" className="hero-photo" />
+        <img src="/images/Professional Indian Man in Gray Suit.png" alt="Bharat Mahajan" className="hero-photo" />
         <p className="script">Dream<br />Code<br />Build</p>
       </div>
 

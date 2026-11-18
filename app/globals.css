@@ -436,7 +436,7 @@ img {
 }
 
 .hero-photo {
-  position: relative;
+  position:absolute;
 
   height: 80%;
   width: auto;
@@ -445,7 +445,7 @@ img {
 
   -webkit-mask-image: radial-gradient(
     closest-side,
-    #000 72%,
+    /* #000 72%, */
     transparent 100%
   );
 
